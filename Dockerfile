@@ -12,4 +12,4 @@ RUN bun build
 
 EXPOSE 3000
 
-CMD ["sh", "-c",  "bun run start"]
+CMD ["bun", "start"]
